@@ -3,7 +3,7 @@ def prod_non_zero_diag(x):
     mini = min(len(x),len(x[0]))
     for i in range(mini):
         if x[i][i] != 0:
-            res *= x[i][i]
+            res *= (int)x[i][i]
     return res
 
 def are_multisets_equal(x, y):
